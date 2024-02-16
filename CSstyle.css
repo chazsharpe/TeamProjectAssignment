@@ -68,7 +68,7 @@ h1 {
 
 .cta-button {
   background-color: #007bff; /* Bootstrap primary color */
-  color: white;
+  color: rgb(255, 0, 0);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 1px;
