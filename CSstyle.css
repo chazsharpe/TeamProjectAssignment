@@ -51,9 +51,8 @@ h1 {
 
 .hero-overlay {
     background: rgba(0, 0, 0, 0.65); /* Dark overlay for text visibility */
-    color: white;
-    padding: 20px;
-    padding-bottom: 30px;
+    color: aliceblue;
+    padding: 80px;
   }
 
 .hero-section h1 {
