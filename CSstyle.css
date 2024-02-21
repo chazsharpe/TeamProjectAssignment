@@ -9,6 +9,13 @@ h1 {
     color: #005A9C;
 }
 
+hr {
+    border: none; /* Removes the default border */
+    height: 1px; /* Sets the height of the line */
+    background-color: #d3d3d3; /* Sets the color of the line to light grey */
+    opacity: 0.65; /* Makes the line semi-transparent, giving it a faded look */
+  }
+
 .nav-links {
     list-style-type: none;
     margin: 0;
@@ -101,4 +108,18 @@ h1 {
 
 section {
     margin-bottom: 80px; /* Adjust the value as necessary */
+}
+
+.everyday-comp-sci-infographic {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#section1 > p:first-of-type {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
+  
+#section1 > div:first-of-type > h3 {
+    margin-top: 20px; /* Adjust the value as needed */
 }
