@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    margin-top: 100px;
+}
+
+.card {
+    
+    position: relative;
+    width: 80%; /* Adjust the percentage based on your design */
+    max-width: 800px; /* Optional: Set a maximum width to prevent the card from becoming too wide on large screens */
+    height: 700px;
+    perspective: 1000px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px; /* Adjust as needed for spacing between cards */
+}
+
+.card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(-180deg);
+}
+
+.card-front,.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #91b9ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Adjust as needed for padding */
+}
+
+.card-back {
+    background:#f0c465;
+    transform: rotateY(180deg);
+}
+
+h1{
+    text-align: center;
+}
