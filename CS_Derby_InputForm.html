@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Newsletter - Signup</title>
+        <link rel="stylesheet" type="text/css" href="CSstyle.css">
+    </head>
+
+    <body>
+        <h1>Newsletter sign up form</h1>
+        <hr>
+        <p>Please fill out your details to recieve your computer science PDF</p>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="firstname" size="20" maxlength="25"></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="lastname" size="20" maxlength="25"></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="text" name="email" size="20" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <td>Check the box to recieve special offers and updates to your PDF</td>
+                    <td><input type="checkbox" name="specialoffers" value="true"></td>
+                </tr>
+            </table>
+            <p>
+                <input type="submit" value="Submit Registration Information" class="formSubmitButton">
+            </p>
+        </form>
+    </body>
+</html>
