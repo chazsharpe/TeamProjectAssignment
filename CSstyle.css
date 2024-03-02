@@ -1,3 +1,5 @@
+
+/* General defaults for body, headings and page splitters (hr) */
 body {
     font-family: Arial, sans-serif;
     margin: 25px;
@@ -16,6 +18,8 @@ hr {
     opacity: 0.65; /* Makes the line semi-transparent, giving it a faded look */
   }
 
+
+/* styling for navigation bar */
 .nav-links {
     list-style-type: none;
     margin: 0;
@@ -24,13 +28,13 @@ hr {
     background-color: #454545;
 }
 
-/* displays navbar list inline */
+
 .nav-links li {
-    float: left;
+    float: left; /* displays navbar list inline */
 }
 
-/* style navbar links */
-.nav-links li a {
+
+.nav-links li a { /* style navbar links */
     display: block;
     color: white;
     text-align: center;
@@ -38,11 +42,13 @@ hr {
     text-decoration: none;
 }
 
-/* changes colour of link when hover */
-.nav-links li a:hover {
+
+.nav-links li a:hover { /* changes colour of link when hover */
     background-color: #111;
 }
 
+
+/* styling for the hero section and it's elements */
 .hero-section {
     background: url("Hero_Image.jpg") no-repeat center center/cover;
     background-size: cover;
@@ -72,7 +78,7 @@ hr {
     margin-bottom: 1em;
   }
 
-.cta-button {
+.heroSubmitButton {
   background-color: #007bff; /* Bootstrap primary color */
   color: white;
   padding: 10px 20px;
@@ -122,4 +128,12 @@ section {
   
 #DailyUseSection1 > div:first-of-type > h3 {
     margin-top: 20px; /* Adjust the value as needed */
+}
+
+.formSubmitButton {
+    background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 1px;
 }
